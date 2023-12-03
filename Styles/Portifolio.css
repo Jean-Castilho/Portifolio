@@ -2,40 +2,37 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
 
+  font-family: var(--main-font);
+  color: var(--destak-color);
+}
 
 :root {
   --main-font: "Russo One", sans-serif;
-  --main-color: #c443f4;
-  
-  --segund-color: #ebdeed;
 
-  --gradient-background: linear-gradient(154deg, #8a18b4 -0.05%, #843aa7 93.86%);
-  --main-border: 4px solid var(--main-color);
-
+  --font-color: #ebdeed;
+  --destak-color: #c443f4;
+  --primari-color: #22212d;
+  --segund-color: #1c1a23;
 }
 
-
-
 body {
-  background-color: #1f1e2a;
-  
-  color: var(--main-color);
-  font-family: var(--main-font);
+  background-color: var(--primari-color);
+
   display: flex;
   flex-direction: column;
+
+  width: 100%;
+  height: 100%;
 }
 
 header {
-
   width: 100%;
   height: 16vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
 }
 
 header #cat {
@@ -124,11 +121,10 @@ section.container {
 }
 
 article #trosso {
+  color: var(--destak-color);
+
   width: 75%;
   height: 16%;
-
-  
-  color: var(--main-color);
 
   display: flex;
   justify-content: space-between;
@@ -145,18 +141,24 @@ article #trosso {
 }
 
 #imgs div {
+    
+  background-color: var(--destak-color);
+  border-radius: 22px;
+  
+  color: var(--destak-color);
   width: 50%;
   height: 80%;
   border-radius: 22px;
-  color: var(--main-color);
 }
 
 section#Projetos {
   width: 100%;
   height: 55vh;
+
   padding-top: 55px;
   padding-bottom: 55px;
-  background: rgb(34, 33, 45);
+
+  background: var(--segund-color);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -165,7 +167,7 @@ section#Projetos {
 
 #Projetos article {
   width: 90%;
-  height: 70%;
+  height: 80%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -174,9 +176,11 @@ section#Projetos {
 #Projetos article div {
   width: 30%;
   height: 80%;
+
   
-  color: var(--main-color);
+  background-color: var(--destak-color);
   border-radius: 22px;
+
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -186,9 +190,12 @@ section#Projetos {
 section#sobre {
   width: 100%;
   height: 60vh;
+
   padding-top: 55px;
   padding-bottom: 55px;
-  background: #17171b;
+
+  background: var(--terceir-color);
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -198,6 +205,7 @@ section#sobre {
 #sobre {
   width: 100%;
   height: 100%;
+
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -240,7 +248,7 @@ section#Proposta {
   height: 85vh;
   padding-top: 55px;
   padding-bottom: 55px;
-  background: #1f1e2a;
+  background: var(--segund-color);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -248,7 +256,7 @@ section#Proposta {
 }
 
 #Proposta h3 {
-  color: #ebdeed;
+  color: var(--font-color);
 
   font-size: 45px;
   line-height: 55px;
@@ -260,7 +268,7 @@ section#Proposta {
 }
 
 #Proposta p {
-  color: #c443f4;
+  color: var(--destak-color);
   text-align: start;
   font-size: 27px;
   line-height: 40px;
@@ -298,7 +306,7 @@ section#Proposta {
   line-height: 50px;
   letter-spacing: 2px;
 
-  color: #c443f4;
+  color: var(--destak-color);
   background: transparent;
 
   border: none;
@@ -316,7 +324,7 @@ section#Proposta {
   line-height: 55px;
   letter-spacing: 2px;
 
-  color: #c443f4;
+  color: var(--destak-color);
   background: transparent;
 
   border: none;
@@ -334,7 +342,7 @@ section#Proposta {
   line-height: 55px;
   letter-spacing: 2px;
 
-  color: #c443f4;
+  color: var(--destak-color);
   background: transparent;
 
   border: none;
@@ -346,7 +354,7 @@ section#Proposta {
   height: 90px;
 
   font-family: var(--main-font);
-  color: #ebdeed;
+  color: var(--font-color);
   font-size: 30px;
   letter-spacing: 4px;
 

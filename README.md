@@ -1,11 +1,27 @@
-# Portifolio
- Ola devs, por meio deste Portifolio sera possivel acessar meus projetos de forma interativa na web
+# Portfólio
 
-# Iniciando
- No som dos primeiros passos fui pensando na interatividade e tambem no desing.
- 
- adicionado interface
- definido paleta de cores!!
- link do google-font family Russo One
- alguns espaços para posiveis textos e imagens
- Add SVG de interatividade tente fazer uma transiçao de estado
+Olá devs, por meio deste Portfólio será possível acessar meus projetos de forma interativa na web.
+
+## Iniciando
+
+Desde os primeiros passos, pensei na interatividade e também no design.
+
+- Adicionada interface interativa para melhorar a experiência do usuário.
+- Definida uma paleta de cores para manter a consistência visual em todo o site.
+- Adicionado o link do Google Font com a família de fontes 'Russo One' para melhorar a estética do texto.
+- Criados espaços reservados para possíveis textos e imagens.
+- Adicionado SVG interativo com transição de estado para adicionar um elemento visual dinâmico ao site.
+
+## Modificações
+
+### HTML
+
+- Adicionamos novas tags, como `.navbar`, para melhorar a estilização e a semântica do código.
+- Reestruturamos a navegação para melhorar a experiência do usuário.
+
+### CSS
+
+- Refatoramos o CSS para usar Flexbox, o que melhorou a responsividade do site. Por exemplo, os itens do menu agora se ajustam automaticamente ao tamanho da tela.
+- Removemos regras CSS redundantes, como estilos duplicados, para limpar o código.
+- Adicionamos uma nova paleta de cores, incluindo `#FF5733` e `#900C3F`, para melhorar a estética do site.
+- Foi adicinado valores root: para que seja utilizada por todo o codigo
