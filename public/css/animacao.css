@@ -1,0 +1,46 @@
+#options svg circle:hover {
+  fill: transparent;
+
+  stroke: var(--destak-color);
+  stroke-width: 4;
+}
+
+#options svg circle {
+    transition: all 1s ease-in-out;
+}
+
+#options svg {
+  transition: all 1s ease-in-out;
+
+  stroke-width: 0;
+  stroke: var(--destak-color);
+
+  fill: #e6ddea;
+}
+
+button#Enviar:hover {
+  transition: all 1s ease-in-out;
+
+  transform: translateY(-4px);
+  border-radius: 10px;
+}
+
+.ElementScrow{
+    transition: all 1s;
+    color: transparent;
+    background: transparent;
+    transform: translateX(-40px);
+}
+
+.ScrowMove {
+  transition: all 1s;
+  animation: Scrow normal 1.4s cubic-bezier(0.54, 0.19, 0.15, 0.81) both;
+  transform: translateX(00px);
+}
+
+
+
+
+
+
+

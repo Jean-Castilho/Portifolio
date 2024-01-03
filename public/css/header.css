@@ -1,0 +1,49 @@
+
+header {
+    width: 100%;
+    height: 16vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header #cat {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30%;
+    padding: 2%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+
+    width: 100%;
+    height: 1%;
+
+    display: flex;
+}
+
+header #options {
+    position: fixed;
+    z-index: 1;
+    bottom: 0;
+    right: 0;
+
+    margin-bottom: 20px;
+    margin-right: 10px;
+
+    width: 5%;
+    height: 20%;
+
+    display: flex;
+    justify-content: align-items;
+    align-items: center;
+}
