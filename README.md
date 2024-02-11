@@ -17,7 +17,7 @@ Desde os primeiros passos, pensei na interatividade e também no design.
 ### HTML
 
 - Adicionamos novas tags, como `.navbar`, para melhorar a estilização e a semântica do código.
-- Reestruturamos a navegação para melhorar a experiência do usuário.
+- Reestruturando a navegação para melhorar a experiência do usuário.
 
 ### CSS
 
